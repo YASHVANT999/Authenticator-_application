@@ -1,141 +1,163 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-eqviv="X-UA-Compatable" content="IE=edge">
-        <http name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>pyithern.com</title>
-    </head>
-    <link rel="stylesheet" href="style.css">
-<body>
-<nav class="navbar">
-    <ul class="link-group">
-        <li class="link active"><a href="#home">home</a></li>
-        <li class="link"><a href="#courses">courses</a></li>
-        <li class="link"><a href="#skills">skills</a></li>
-        <li class="link"><a href="#contacts">contacts</a></li>
-    </ul>
-</nav>
-<!--home page-->
-<section id=home class="home-section home_container active">
-    <div class="home_left">
-        <h2>Introducing</h2>
-        <h1>Pyintern Courses</h1>
-        <h3>Mohd. Amir</h3>
-        <h4>Experinces</h4>
-        <div class="home_experinces">
-            <div class="one_exp">
-                <div class="color_one"></div>
-                <div class="exp">HTML</div>
-            </div>
-            <div class="one_exp">
-                <div class="color_one"></div>
-                <div class="exp">Web Development</div>
-            </div>
-            <div class="one_exp">
-                <div class="color_one"></div>
-                <div class="exp">Python</div>
-            </div>
-            <div class="one_exp">
-                <div class="color_one"></div>
-                <div class="exp">Java</div>
-            </div>
-            <div class="one_exp">
-                <div class="color_one"></div>
-                <div class="exp">Machine Learning</div>
-            </div>
-            <div class="one_exp">
-                <div class="color_one"></div>
-                <div class="exp">C/C++</div>
-            </div>
-            
-        </div>
+  <head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <img src="img/Picture1.png" />
+      <center><h3 class="head">register here</h3></center>
     </div>
-    <div class="home_right">
-        <img src="img/1632026968831.jpg" alt="Mohd. Amir">
+    <div class="details">
+      <p>personal details</p>
     </div>
-</section>
-<!--project page-->
-<section id="courses" class="project-section active">
-    <h1 class="project-heading"> courses we offer</h1>
-    <div class="project-container">
-        <div class="project-card">
-            <image src="img/course01.jpg" class="project-img" alt="">
-            <div class="project-content">
-                <h1 class="project-title">course 01</h1>
-                <p class="project-info">
-                    C language<br><b>Rs.1350</b>
-                </p>
-                <div class="project-btn-grp">
-                    <button class="project-btn get"><a href="https://forms.gle/Ydab5vaErf8nJNrQ7" style="text-decoration: none; color:#fff;">enroll</a></button>
-                    <button class="project-btn live">syllabus</button>
-                </div>
-            </div>
-        </div>
-        <div class="project-card">
-            <image src="img/course02.jpg" class="project-img" alt="">
-            <div class="project-content">
-                <h1 class="project-title">course 02</h1>
-                <p class="project-info">
-                    Python language<br><b>Rs.1350</b>
-                </p>
-                <div class="project-btn-grp">
-                    <button class="project-btn get">enroll</button></button>
-                    <button class="project-btn live">syllabus</button>
-                </div>
-            </div>
-        </div>
+    <div class="personal-details">
+      <center>
+        <label>first name </label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter First name"
+          required
+        /><br />
+        <label>last name </label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter Last name"
+          required
+        /><br /><label style="margin-left: -25px">father's name</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter Father's name"
+          required
+        /><br />
+        <label>nationality</label>
+        <select>
+          <option>Indian</option>
+          <option>NRI</option>
+          <option>foreigner</option></select
+        ><br />
+        <label style="margin-left: 28px">gender</label>
+        <select>
+          <option>Male</option>
+          <option>Female</option></select
+        ><br />
+        <label>mobile no.</label>
+        <input
+          type="number"
+          name="number"
+          placeholder="Enter Mobile Number"
+          required
+        /><br />
+        <label style="margin-left: -29px">e-mail address</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter E-mail"
+          required
+        /><br /><br /><br />
+        <label style="margin-left: -70px">alternate mobile no.</label>
+        <input type="number" placeholder="Enter Alternate Mob" /><br />
+        <label style="margin-left: -32px">alternate E-mail</label>
+        <input type="email" name="email" placeholder="Enter Alternate E-mail" />
+      </center>
     </div>
-</section>
-
-<!--other skills-->
-<div id="skills" class="skill-section">
-    <h1 class="heading">other skills</h1>
-    <div class="skill-container">
-        <div class="skill-card">
-            <img src="img/html.png" class="skill-img" alt="">
-            <div class="skill-level">98%</div>
-            <h1 class="skill-name">HTML</h1>
-            <p class="skill-info">skeleton of web page</p>
-        </div>
-        <div class="skill-card">
-            <img src="img/css.png" class="skill-img" alt="">
-            <div class="skill-level">98%</div>
-            <h1 class="skill-name">CSS</h1>
-            <p class="skill-info">style of web page</p>
-        </div>
-        <div class="skill-card">
-            <img src="img/js.png" class="skill-img" alt="">
-            <div class="skill-level">98%</div>
-            <h1 class="skill-name">JAVASCRIPT</h1>
-            <p class="skill-info">soul of web page</p>
-        </div>
-        <div class="skill-card">
-            <img src="img/nodejs.png" class="skill-img" alt="">
-            <div class="skill-level">98%</div>
-            <h1 class="skill-name">NODE.JS</h1>
-            <p class="skill-info">open source server environment</p>
-        </div>
-        <div class="skill-card">
-            <img src="img/reactjs.png" class="skill-img" alt="">
-            <div class="skill-level">98%</div>
-            <h1 class="skill-name">REACT.JS</h1>
-            <p class="skill-info">painless to create interactive UIs</p>
-        </div>
+    <div class="details">
+      <p>educational details</p>
     </div>
-</div>
-<!--contact sec-->
-<p class="heading1" id="contacts">contact us</p>
-<section class="contact-section">
-    <form class="contact-form">
-        <center><input type="text" name="name" id="name" autocomplete="off" placeholder="name" size="39" style="border-radius: 3px;opacity: 0.9;" class="name"><br>
-        <div><input type="text" name="email" id="email" autocomplete="off" placeholder="email" size="39" style="border-radius: 3px;opacity: 0.9;"></div><br>
-        <textarea name="msg" id="msg" placeholder="  type your message here" autocomplete="off" style="opacity: 0.9;"></textarea>
-        <button type="submit" class="form-submit-btn">contact</button></center>
-    </form>
-    <h3 class="about-section">About Us</h3><br>
-    <p class="about-info">Pyintern was founded in 2021 with a mision to create skilled Software Engineer for our country and world. At Pyintern, we strive to increase student intrest by providing hands on practical training in every concept taught in the classroom.<br><br>Founder : Mohd Amir<br>Mail : amir@gmail.com<br>Phone : 8090888647<br>Developer & Designer : Yashwant Gupta<br>Mail : mlp.yashvantgupta@gmail.com</p></div>
-    
-</section>
-<script src="app.js"></script>
-</body>
+    <br />
+    <div class="educational-details">
+      <center>
+        <label style="margin-left: -25px">working status</label>
+        <select>
+          <option>Student</option>
+          <option>Employed</option>
+          <option>Unemployed</option></select
+        ><br />
+        <label style="margin-left: 38px">course</label>
+        <select>
+          <option>B.TECH</option>
+          <option>Others</option></select
+        ><br />
+        <label style="margin-left: 38px">branch</label>
+        <select>
+          <option>Information Technology(IT)</option>
+          <option>Mechanical Engineering(ME)</option>
+          <option>Civil Engineering(CE)</option></select
+        ><br />
+        <label style="margin-left: -16px">college name</label>
+        <input type="text" placeholder="Enter College Name" required /><br />
+        <label>college city</label>
+        <input type="text" placeholder="Enter College City" required /><br />
+        <label style="margin-left: -5px">college state</label>
+        <select>
+          <option>Uttar Pradesh</option>
+          <option>Others</option>
+        </select>
+      </center>
+    </div>
+    <div class="details">
+      <p>training details</p>
+    </div>
+    <br />
+    <center>
+      <div class="training-type">
+        <label style="margin-left: -9px">training type</label>
+        <select>
+          <option>Summer Training</option></select
+        ><br />
+        <label style="margin-left: -10px">training mode</label>
+        <select>
+          <option>Online</option></select
+        ><br />
+        <label style="margin-left: -52px">course to be joined</label>
+        <select>
+          <option>C programming</option>
+          <option>Python programming</option>
+          <option>Machine Learning</option></select
+        ><br />
+        <label style="margin-left: 23px">batch date</label>
+        <select>
+          <option>Tuesday, Feb 24, 2022</option>
+          <option>Monday, Mar 01, 2022</option></select
+        ><br />
+        <label style="margin-left: 38px">duration</label>
+        <select>
+          <option>6 Weeks</option>
+        </select>
+      </div>
+    </center>
+    <div class="details">
+      <p>fee details</p>
+    </div>
+    <center>
+      <div class="fee-details">
+        <br />
+        <label style="margin-left: 12px">course fee</label>
+        <input type="number" value="1350" readonly /><br />
+      </div>
+    </center>
+    <div class="details">
+      <p>student decleration</p>
+    </div>
+    <center style="margin-left: 75px">
+      <div class="decleration">
+        <br />
+        <input type="checkbox" required />
+        <label
+          >I here by declare that all the above information <br />are true to
+          the best of my knowledge.</label
+        ><br />
+      </div>
+      <input type="text" id="capt" readonly />
+      <input type="text" placeholder="Enter captcha" id="textinput" required />
+      <img class="captimg" src="img/capimg1.png" onclick="cap()" /><br />
+      <button id="final-submit" onclick="validcap()">
+        Complete Registration
+      </button>
+    </center>
+    <script src="app.js"></script>
+  </body>
 </html>
